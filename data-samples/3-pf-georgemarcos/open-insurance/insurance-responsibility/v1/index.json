@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "brand": "Mirante RJ",
+      "companies": [
+        {
+          "companyName": "Pier LTDA",
+          "cnpjNumber": "81698879000199",
+          "policies": [
+            "10371813-4340-45f1-82a2-828f1cb1fb7c"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

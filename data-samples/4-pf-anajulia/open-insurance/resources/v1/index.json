@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "resourceId": "75f3677b-61d9-453e-b31d-8dd28112e41b",
+      "type": "CUSTOMERS_PERSONAL_IDENTIFICATIONS",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "728a919a-2b06-49ab-a2b8-655afe48f76a",
+      "type": "CUSTOMERS_PERSONAL_QUALIFICATION",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "8c210436-1cd2-42c1-9882-cf29d52de190",
+      "type": "CUSTOMERS_PERSONAL_ADITTIONALINFO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"3c2ef880-242b-4a0e-8437-a0865945a7f4",
+      "type": "DAMAGES_AND_PEOPLE_ACCEPTANCE_AND_BRANCHES_ABROAD",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"95333279-141c-4b1b-8744-39ecc16f3175",
+      "type": "DAMAGES_AND_PEOPLE_AUTO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"a5573170-f593-454f-abc7-ad5292ddfba7",
+      "type": "DAMAGES_AND_PEOPLE_AERONAUTICAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"50c1c5b8-ce6c-4d53-8a6b-41ee54ba0ac8",
+      "type": "DAMAGES_AND_PEOPLE_FINANCIAL_RISKS",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"a0c4dc53-b2ee-4f2e-ab7d-a3c97c4b98f1",
+      "type": "DAMAGES_AND_PEOPLE_NAUTICAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"cfd0b259-e531-40ba-a886-d1de9d636e3b",
+      "type": "DAMAGES_AND_PEOPLE_NUCLEAR",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912",
+      "type": "DAMAGES_AND_PEOPLE_PATRIMONIAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"b95422ea-96f0-41da-95dd-c58d0b6c2c01",
+      "type": "DAMAGES_AND_PEOPLE_OIL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"d3dc78e6-473e-4d82-911a-4a52256dc108",
+      "type": "DAMAGES_AND_PEOPLE_RESPONSABILITY",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"a725056d-f119-4bb6-8670-8646cd6452c3",
+      "type": "DAMAGES_AND_PEOPLE_RURAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"b7c98ad9-5605-40bc-8526-61bf24c230b1",
+      "type": "DAMAGES_AND_PEOPLE_HOUSING",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"cea3ddb6-9bf6-4b18-8d86-38991661b842",
+      "type": "DAMAGES_AND_PEOPLE_PEOPLE",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"cf8568f9-35c2-42ca-bfc4-19e2bbac551a",
+      "type": "DAMAGES_AND_PEOPLE_TRANSPORT",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"89ec4f84-eb53-44b3-b37d-c63f6e9b1677",
+      "type": "PENSION_RISK",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"31ce109a-59e8-446b-8708-404862763daa",
+      "type": "CAPITALIZATION_TITLES",
+      "status": "AVAILABLE"
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "first": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "last": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2022-01-06T19:58:00Z"
+  }
+}
