@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "updateDateTime": "2022-01-10T09:30:00Z",
+      "pepIdentification": "PESSOA_POLITICAMENTE_EXPOSTA_PPE",
+      "occupation": [
+        {
+          "details": "Vereador",
+          "occupationCode": "RECEITA_FEDERAL",
+          "occupationCodeType": "RFB"
+        }
+      ],
+      "lifePensionPlans": "SIM",
+      "informedRevenue": {
+        "incomeFrequency": "MENSAL",
+        "currency": "BRL",
+        "amount": 18402.02,
+        "year": "2021"
+      },
+      "informedPatrimony": {
+        "currency": "BRL",
+        "amount": 500000.00,
+        "year": "2021"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/qualifications",
+    "first": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/qualifications",
+    "last": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/qualifications"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2022-08-30T10:30:00Z"
+  }
+}

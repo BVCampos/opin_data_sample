@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "brand": "Shein",
+      "companies": [
+        {
+          "companyName": "Ebanx LTDA",
+          "cnpjNumber": "61880687000191",
+          "policies": [
+            "196be411-cf49-470b-859d-e25740e406c2"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

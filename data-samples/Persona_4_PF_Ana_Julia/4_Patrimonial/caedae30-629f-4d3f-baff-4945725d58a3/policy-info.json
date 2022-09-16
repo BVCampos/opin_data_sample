@@ -1,0 +1,150 @@
+{
+    "data": {
+      "documentType": "APOLICE_INDIVIDUAL",
+      "policyId": "caedae30-629f-4d3f-baff-4945725d58a3",
+      "susepProcessNumber": "3456819726",
+      "issuanceType": "EMISSAO_PROPRIA",
+      "issuanceDate": "2021-10-20",
+      "termStartDate": "2021-12-01",
+      "termEndDate": "2022-12-01",
+      "leadInsurerCode": "178484158",
+      "leadInsurerPolicyId": "caedae30-629f-4d3f-baff-4945725d58a3",
+      "maxLMG": {
+        "amount": 4895.00,
+        "currency": "BRL"
+      },
+      "proposalId": "0x115354120b63ccc1b1087052d57bb76b17aff0af6ae8973269a",
+      "insureds": [
+        {
+          "identification": "43657746110",
+          "identificationType": "CPF",
+          "name": "Ana Julia",
+          "postCode": "81220060",
+          "email": "Ana_Julia@gmail.com",
+          "city": "Curitiba",
+          "state": "Paraná",
+          "country": "BRA",
+          "address": "R. Nardy Müller da Costa, 70 - Campo Comprido"
+        }
+      ],
+      "principals": [
+        {
+          "identification": "70453800033",
+          "identificationType": "CPF",
+          "name": "Elmar da Fonseca",
+          "postCode": "14550000",
+          "email": "elmar_fonseca@gmail.com",
+          "city": "Aramina",
+          "state": "São Paulo",
+          "country": "BRA",
+          "address": "R. Cento e Três, 1491"
+        }
+      ],
+      "intermediaries": [
+        {
+          "type": "OUTROS",
+          "identification": "89890785048",
+          "identificationType": "CPF",
+          "name": "Pedro Laprovita",
+          "postCode": "03017000",
+          "city": "São Paulo",
+          "state": "São Paulo",
+          "country": "BRA",
+          "address": "R. Bresser, 61 - Brás"
+        }
+      ],
+      "insuredObjects": [
+        {
+          "identification": "0xa48fwe484sdf7ew41cs87d4r",
+          "type": "AUTOMOVEL",
+          "description": "SUV",
+          "amount": {
+            "amount": 4895.00,
+            "currency": "BRL"
+          },
+          "coverages": [
+            {
+              "branch": "5484",
+              "code": "ROUBO_E_FURTO_MEDIANTE_ARROMBAMENTO",
+              "internalCode": "0x54asd54a8s4f4sdf87we484f8we4f8",
+              "susepProcessNumber": "0x51d8as4d8we484f84",
+              "LMI": {
+                "amount": 4895.00,
+                "currency": "BRL"
+              },
+              "isLMISublimit": true,
+              "termStartDate": "2021-12-01",
+              "termEndDate": "2022-12-01",
+              "isMainCoverage": true,
+              "feature": "MASSIFICADOS_MICROSEGUROS",
+              "type": "REGULAR_COMUM",
+              "gracePeriod": 30,
+              "gracePeriodicity": "DIA",
+              "gracePeriodCountingMethod": "DIAS_UTEIS",
+              "gracePeriodStartDate": "2022-12-01",
+              "gracePeriodEndDate": "2022-12-31"
+            }
+          ]
+        }
+      ],
+      "coverages": [
+        {
+          "branch": "5484",
+          "code": "ROUBO_E_FURTO_MEDIANTE_ARROMBAMENTO",
+          "deductible": {
+            "type": "NORMAL",
+            "amount": {
+              "amount": 4895.00,
+              "currency": "BRL"
+            },
+            "period": 50,    
+            "periodicity": "DIA",
+            "periodCountingMethod": "DIAS_UTEIS",
+            "periodStartDate": "2022-12-31",
+            "periodEndDate": "2023-02-20",
+            "description": "Franquia Domingues ramos"
+          },
+          "POS": {
+            "applicationType": "VALOR",
+            "description": "Aplicação natural",
+            "minValue": {
+              "amount": 4895.00,
+              "currency": "BRL"
+            },
+            "maxValue": {
+              "amount": 6363.00,
+              "currency": "BRL"
+            },
+            "percentage": 30.0
+          }
+        }
+      ],
+      "coinsuranceRetainedPercentage": 10.0,
+      "coinsurers": [
+        {
+          "identification": "0xd8a4d8w484d84a",
+          "cededPercentage": 15.0
+        }
+      ],
+      "branchInfo": {
+        "basicCoverageIndex": "AMPLA",
+        "insuredObjects": [
+          {
+            "identification": "0xa48fwe484sdf7ew41cs87d4r",
+            "propertyType": "APARTAMENTO",
+            "structuringType": "CONDOMINIO_VERTICAL",
+            "postCode": "78666617"
+          }
+        ]
+      }
+    },
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/caedae30-629f-4d3f-baff-4945725d58a3/policy-info",
+      "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/caedae30-629f-4d3f-baff-4945725d58a3/policy-info",
+      "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/caedae30-629f-4d3f-baff-4945725d58a3/policy-info"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1
+    }
+}

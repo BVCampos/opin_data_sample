@@ -1,0 +1,66 @@
+{
+    "data": [
+        {
+            "updateDateTime": "2022-01-10T12:35:00Z",
+            "personalId": "220-ajg-gj562ff6dr2-y5reh",
+            "brandName": "",
+            "civilName": "Ana Julia Guedes",
+            "cpfNumber": "33333333333",
+            "companyInfo": {
+                "cnpjNumber": "NA",
+                "name": ""
+            },
+            "documents": [
+                {
+                    "type": "RG",
+                    "number": "26952846",
+                    "expirationDate": "2024-06-01",
+                    "issueLocation": "São Paulo"
+                }
+            ],
+            "hasBrazilianNationality": true,
+            "contact": {
+                "postalAddresses": [
+                    {
+                        "address": "R. das Margaridas, 19",
+                        "districtName": "Jardim Bebedouro",
+                        "townName": "Guarulhos",
+                        "countrySubDivision": "SP",
+                        "postCode": "07091100",
+                        "country": "BRA"
+                    }
+                ],
+                "phones": [
+                    {
+                        "countryCallingCode": "55",
+                        "areaCode": "11",
+                        "number": "999995555",
+                        "phoneExtension": "1"
+                    }
+                ],
+                "emails": [
+                    {
+                        "email": "ana.julia@mock.com"
+                    }
+                ]
+            },
+            "civilStatusCode": "SOLTEIRO",
+            "sex": "FEMININO",
+            "birthDate": "1990-03-20",
+            "filiation": {
+                    "type": "PAI",
+                    "civilName": "Antonio Guedes"
+                }
+        }
+    ],
+    "links": {
+        "self": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/identifications",
+        "first": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/identifications",
+        "last": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/identifications"
+    },
+    "meta": {
+        "totalRecords": 1,
+        "totalPages": 1,
+        "requestDateTime": "2022-01-05T13:30:00Z"
+    }
+}

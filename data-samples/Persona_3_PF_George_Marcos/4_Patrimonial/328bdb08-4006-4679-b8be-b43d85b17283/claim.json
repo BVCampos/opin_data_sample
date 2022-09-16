@@ -1,0 +1,35 @@
+{
+    "data": [
+      {
+        "identification": "328bdb08-4006-4679-b8be-b43d85b17283",
+        "documentationDeliveryDate": "2022-02-15",
+        "status": "ENCERRADO_COM_INDENIZACAO",
+        "statusAlterationDate": "2022-05-10",
+        "occurrenceDate": "2022-01-30",
+        "warningDate": "2022-04-30",
+        "thirdPartyClaimDate": "2022-02-02",
+        "amount": {
+          "amount": 4500.00,
+          "currency": "BRL"
+        },
+        "coverages": [
+          {
+            "insuredObjectId": "0x7f478sd4as874fas874",
+            "branch": "8751",
+            "code": "DANOS_MORAIS",
+            "warningDate": "2022-04-30",
+            "thirdPartyClaimDate": "2022-03-30"
+          }
+        ]
+      }
+    ],
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/328bdb08-4006-4679-b8be-b43d85b17283/claim",
+      "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/328bdb08-4006-4679-b8be-b43d85b17283/claim",
+      "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/328bdb08-4006-4679-b8be-b43d85b17283/claim"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1
+    }
+  }

@@ -1,0 +1,190 @@
+{
+  "data": {
+    "documentType": "APOLICE_INDIVIDUAL",
+    "policyId": "e12708eb-78a5-4ede-9da0-5bd1e5d47cf4",
+    "susepProcessNumber": "577323810",
+    "issuanceType": "EMISSAO_PROPRIA",
+    "issuanceDate": "2022-07-05",
+    "termStartDate": "2022-08-01",
+    "termEndDate": "2025-07-31",
+    "maxLMG": {
+      "amount": 3000.00,
+      "currency": "BRL"
+    },
+    "proposalId": "hf89h3f02",
+    "insureds": [
+      {
+        "identification": "23251313002",
+        "identificationType": "CPF",
+        "name": "José Loreto Garcia",
+        "postCode": "78720806",
+        "email": "jose.loreto@gmail.com",
+        "city": "Rondonópolis",
+        "state": "MT",
+        "country": "BRA",
+        "address": "Rua Olíria Lisboa de Freitas, 329, Cidade Natal"
+      }
+    ],
+    "beneficiaries": [
+      {
+        "identification": "23251313002",
+        "identificationType": "CPF",
+        "name": "José Loreto Garcia",
+        "postCode": "78720806",
+        "email": "jose.loreto@gmail.com",
+        "city": "Rondonópolis",
+        "state": "MT",
+        "country": "BRA",
+        "address": "Rua Olíria Lisboa de Freitas, 329, Cidade Natal"
+      }
+    ],
+    "principals": [
+      {
+        "identification": "23251313002",
+        "identificationType": "CPF",
+        "name": "José Loreto Garcia",
+        "postCode": "78720806",
+        "email": "jose.loreto@gmail.com",
+        "city": "Rondonópolis",
+        "state": "MT",
+        "country": "BRA",
+        "address": "Rua Olíria Lisboa de Freitas, 329, Cidade Natal"
+      }
+    ],
+    "intermediaries": [
+      {
+        "type": "AGENTE_DE_MICROSSEGUROS",
+        "identification": "38501567027",
+        "identificationType": "CPF",
+        "name": "Carlos Piloto",
+        "postCode": "76900007",
+        "city": "Ji-Paraná",
+        "state": "RO",
+        "country": "BRA",
+        "address": "Rua Dom Augusto, 2, União"
+      }
+    ],
+    "insuredObjects": [
+      {
+        "identification": "34798302",
+        "type": "CONTRATO",
+        "description": "CELULARES DE FUNCIONARIOS",
+        "amount": {
+          "amount": 2000.00,
+          "currency": "BRL"
+        },
+        "coverages": [
+          {
+            "branch": "3",
+            "code": "PRESTACAO_DE_SERVICOS",
+            "susepProcessNumber": "4687293810",
+            "LMI": {
+              "amount": 1800.00,
+              "currency": "BRL"
+            },
+            "isLMISublimit": true,
+            "termStartDate": "2022-03-01",
+            "termEndDate": "2024-08-31",
+            "isMainCoverage": true,
+            "feature": "MASSIFICADOS_MICROSEGUROS",
+            "type": "PARAMETRICO"
+          }
+        ]
+      }
+    ],
+    "coverages": [
+      {
+        "branch": "3",
+        "code": "PRESTACAO_DE_SERVICOS",
+        "deductible": {
+          "type": "NORMAL",
+          "amount": {
+            "amount": 2000.00,
+            "currency": "BRL"
+          },
+          "period": 120,
+          "periodicity": "MES",
+          "periodCountingMethod": "DIAS_UTEIS",
+          "periodStartDate": "2022-01-01",
+          "periodEndDate": "2023-01-01",
+          "description": "COBERTURA DE CELULAR"
+        },
+        "POS": {
+          "applicationType": "PERCENTUAL",
+          "description": "POS PERCENTUAL",
+          "minValue": {
+            "amount": 100.00,
+            "currency": "BRL"
+          },
+          "maxValue": {
+            "amount": 150.00,
+            "currency": "BRL"
+          },
+          "percentage": 3.24
+        }
+      }
+    ],
+    "coinsurers": [
+      {
+        "identification": "427341803",
+        "cededPercentage": 5.8
+      }
+    ],
+    "branchInfo": {
+      "coverages": [
+        {
+          "branch": "3",
+          "code": "PRESTACAO_DE_SERVICOS",
+          "type": "POR_RECLAMACAO",
+          "retroactivityDate": "2022-06-29",
+          "retroactivityPeriod": "30",
+          "retroactivityTimeUnit": "DIA",
+          "retroactivityWorkingDaysIndex": "DIAS_UTEIS",
+          "complementaryTermStartDate": "2022-07-08",
+          "complementaryTermEndDate": "2022-08-08",
+          "complementaryTerm": "30",
+          "complementaryTermTimeUnit": "DIA",
+          "complementaryTermWorkingDaysIndex": "DIAS_UTEIS",
+          "supplementaryTermStartDate": "2022-08-09",
+          "supplementaryTermEndDate": "2022-09-09",
+          "supplementaryTerm": "30",
+          "supplementaryTermTimeUnit": "DIA",
+          "supplementaryTermWorkingDaysIndex": "DIAS_UTEIS",
+          "lawyerRecommendation": "ESCOLHIDO_PELO_SEGURADO"
+        }
+      ],
+      "insuredObjects": [
+        {
+          "identification": "34798302",
+          "hasComplementaryContract": true,
+          "complementaryContractAmount": {
+            "amount": 300.00,
+            "currency": "BRL"
+          },
+          "coveragesMaxAmount": {
+            "amount": 450.00,
+            "currency": "BRL"
+          },
+          "coveragesTermStartDate": "2022-08-01",
+          "coveragesTermEndDate": "2022-09-04",
+          "coveragesTerm": 120,
+          "coveragesUnit": "MES",
+          "coveragesWorkingDaysIndex": "DIAS_UTEIS",
+          "hasTransportationPollutionDamage": true,
+          "hasThirdPatyDamage": true,
+          "professionalClass": "ADMINISTRADOR_IMOBILIARIO",
+          "hasRetroactivityApplication": true
+        }
+      ]
+    }
+  },
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/policy-info",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/policy-info",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/policy-info"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

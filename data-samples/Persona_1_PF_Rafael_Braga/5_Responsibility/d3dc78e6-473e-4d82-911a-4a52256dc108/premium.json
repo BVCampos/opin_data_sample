@@ -1,0 +1,78 @@
+{
+  "data": {
+    "paymentsQuantity": 3,
+    "amount": {
+      "amount": 200.00,
+      "currency": "BRL"
+    },
+    "coverages": [
+      {
+        "branch": "154",
+        "code": "DANOS_CAUSADOS_A_TERCEIROS",
+        "premiumAmount": {
+          "amount": 600.00,
+          "currency": "BRL"
+        }
+      }
+    ],
+    "payments": [
+      {
+        "movementDate": "2022-02-01",
+        "movementType": "LIQUIDACAO_DE_PREMIO",
+        "movementOrigin": "EMISSAO_DIRETA",
+        "movementPaymentsNumber": 1,
+        "amount": {
+          "amount": 200.00,
+          "currency": "BRL"
+        },
+        "maturityDate": "2022-02-02",
+        "tellerId": "38481023078",
+        "tellerIdType": "CPF",
+        "tellerName": "Maria Cristina Guerreira",
+        "financialInstitutionCode": "1244023",
+        "paymentType": "PIX"
+      },
+      {
+        "movementDate": "2022-03-01",
+        "movementType": "LIQUIDACAO_DE_PREMIO",
+        "movementOrigin": "EMISSAO_DIRETA",
+        "movementPaymentsNumber": 1,
+        "amount": {
+          "amount": 200.00,
+          "currency": "BRL"
+        },
+        "maturityDate": "2022-03-02",
+        "tellerId": "38481023078",
+        "tellerIdType": "CPF",
+        "tellerName": "Maria Cristina Guerreira",
+        "financialInstitutionCode": "1244023",
+        "paymentType": "PIX"
+      },
+      {
+        "movementDate": "2022-04-01",
+        "movementType": "LIQUIDACAO_DE_PREMIO",
+        "movementOrigin": "EMISSAO_DIRETA",
+        "movementPaymentsNumber": 1,
+        "amount": {
+          "amount": 200.00,
+          "currency": "BRL"
+        },
+        "maturityDate": "2022-04-02",
+        "tellerId": "38481023078",
+        "tellerIdType": "CPF",
+        "tellerName": "Maria Cristina Guerreira",
+        "financialInstitutionCode": "1244023",
+        "paymentType": "PIX"
+      }
+    ]
+  },
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/d3dc78e6-473e-4d82-911a-4a52256dc108/premium",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/d3dc78e6-473e-4d82-911a-4a52256dc108/premium",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/d3dc78e6-473e-4d82-911a-4a52256dc108/premium"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

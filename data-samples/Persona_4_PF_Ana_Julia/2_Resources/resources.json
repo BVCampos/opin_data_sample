@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "resourceId": "029335ad-c854-4d95-89f4-5d9b69408456",
+      "type": "CUSTOMERS_PERSONAL_IDENTIFICATIONS",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "f785177d-0d17-424a-a73c-88ea44ae3d08",
+      "type": "CUSTOMERS_PERSONAL_QUALIFICATION",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "88a4b87c-3950-48db-be04-a2a6dd68f59e",
+      "type": "CUSTOMERS_PERSONAL_ADITTIONALINFO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"4d439a3f-6265-4e52-bde4-2311b1179577",
+      "type": "DAMAGES_AND_PEOPLE_AUTO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"f49557cb-702d-433a-ba47-986aa4702e1b",
+      "type": "DAMAGES_AND_PEOPLE_FINANCIAL_RISKS",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"ba5d6496-4c54-4021-b7d1-2e806184b4e5",
+      "type": "DAMAGES_AND_PEOPLE_NAUTICAL",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "resourceId":"b8a0c73a-04f0-41da-8b75-43c7a6c77718",
+      "type": "DAMAGES_AND_PEOPLE_NUCLEAR",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "resourceId":"caedae30-629f-4d3f-baff-4945725d58a3",
+      "type": "DAMAGES_AND_PEOPLE_PATRIMONIAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"c0476a55-50f4-42fc-b17f-bb76b6514912",
+      "type": "DAMAGES_AND_PEOPLE_RURAL",
+      "status": "AVAILABLE"
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "first": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "last": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2022-01-06T19:58:00Z"
+  }
+}

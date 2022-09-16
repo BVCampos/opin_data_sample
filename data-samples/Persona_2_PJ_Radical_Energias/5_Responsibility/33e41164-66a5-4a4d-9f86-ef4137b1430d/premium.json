@@ -1,0 +1,60 @@
+{
+  "data": {
+    "paymentsQuantity": 2,
+    "amount": {
+      "amount": 1000.00,
+      "currency": "BRL"
+    },
+    "coverages": [
+      {
+        "branch": "3",
+        "code": "PRESTACAO_DE_SERVICOS",
+        "premiumAmount": {
+          "amount": 1800.00,
+          "currency": "BRL"
+        }
+      }
+    ],
+    "payments": [
+      {
+        "movementDate": "2022-01-01'",
+        "movementType": "LIQUIDACAO_DE_CUSTO_DE_AQUISICAO",
+        "movementPaymentsNumber": 1,
+        "amount": {
+          "amount": 1000.00,
+          "currency": "BRL"
+        },
+        "maturityDate": "2022-01-05",
+        "tellerId": "23251313002",
+        "tellerIdType": "CPF",
+        "tellerName": "José Loreto Garcia",
+        "financialInstitutionCode": "434729",
+        "paymentType": "BOLETO"
+      },
+      {
+        "movementDate": "2022-02-01",
+        "movementType": "LIQUIDACAO_DE_CUSTO_DE_AQUISICAO",
+        "movementPaymentsNumber": 2,
+        "amount": {
+          "amount": 1000.00,
+          "currency": "BRL"
+        },
+        "maturityDate": "2022-02-05",
+        "tellerId": "23251313002",
+        "tellerIdType": "CPF",
+        "tellerName": "José Loreto Garcia",
+        "financialInstitutionCode": "434729",
+        "paymentType": "BOLETO"
+      }
+    ]
+  },
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/premium",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/premium",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/premium"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

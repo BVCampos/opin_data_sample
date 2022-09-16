@@ -1,0 +1,30 @@
+{
+    "data": [
+      {
+        "updateDateTime": "2023-01-01T08:30:00Z",
+        "mainBranch": "Eletricidade e gás",
+        "secondaryBranch": "Construção",
+        "informedRevenue": {
+          "incomeFrequency": "QUINZENAL",
+          "currency": "BRL",
+          "amount": 5118481.04,
+          "year": "2021"
+        },
+        "informedPatrimony": {
+          "currency": "BRL",
+          "amount": 5118481.04,
+          "year": "2021"
+        }
+      }
+    ],
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/customer/v1/business/qualifications",
+      "first": "https://api.seguradoraex.com.br/open-insurance/customer/v1/business/qualifications",
+      "last": "https://api.seguradoraex.com.br/open-insurance/customer/v1/business/qualifications"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1,
+      "requestDateTime": "2021-08-15T08:30:00Z"
+    }
+  }

@@ -1,0 +1,164 @@
+{
+  "data": {
+    "documentType": "APOLICE_INDIVIDUAL_AUTOMOVEL",
+    "policyId": "3936280b-c6f6-47aa-808d-766001db80a4",
+    "susepProcessNumber": "58846322984",
+    "issuanceType": "COSSEGURO_ACEITO",
+    "issuanceDate": "2021-01-10",
+    "termStartDate": "2021-02-15",
+    "termEndDate": "2023-12-01",
+    "leadInsurerCode": "233579886",
+    "leadInsurerPolicyId": "3936280b-c6f6-47aa-808d-766001db80a4",
+    "maxLMG": {
+      "amount": 8467.00,
+      "currency": "BRL"
+    },
+    "proposalId": "0xfwe84f84sdf84we874g8d4f5g11sxc23v48er7g98sd1bg5fj4uy8",
+    "insureds": [
+      {
+        "identification": "66477937000160",
+        "identificationType": "CNPJ",
+        "name": "RADICAL ENERGIAS",
+        "postCode": "81220060",
+        "email": "radical_energias@hotmail.com",
+        "city": "Sao Gabriel Da Palha",
+        "state": "Espírito Santo",
+        "country": "BRA",
+        "address": "R. José Alves, 339"
+      }
+    ],
+    "principals": [
+      {
+        "identification": "11969024020",
+        "identificationType": "CPF",
+        "name": "Bernardo Alberto Fonseca",
+        "postCode": "13735059",
+        "email": "bAlberto_fonseca@gmail.com",
+        "city": "Mococa",
+        "state": "São Paulo",
+        "country": "BRA",
+        "address": "Rua Luiz Antônio Fernandes Dias 1488"
+      }
+    ],
+    "beneficiaries": [
+      {
+        "identification": "24049467062",
+        "identificationType": "CPF",
+        "name": "Luiz Agosto Fernandes",
+        "postCode": "44042170",
+        "email": "luiz_agosto@gmail.com",
+        "city": "Feira De Santana",
+        "state": "Bahia",
+        "country": "BRA",
+        "address": "Rua Filadélfia 1676"
+      }
+    ],
+    "intermediaries": [
+      {
+        "type": "ESTIPULANTE",
+        "identification": "75056629022",
+        "identificationType": "CPF",
+        "name": "Ademar Cabrito",
+        "postCode": "36090716",
+        "city": "Juiz De Fora",
+        "state": "Minas Gerais",
+        "country": "BRA",
+        "address": "Rua Rômulo Quinhões Pereira 1257"
+      }
+    ],
+    "insuredObjects": [
+      {
+        "identification": "0xfsd4f87ew4f87we",
+        "type": "PROCESSO_JUDICIAL",
+        "description": "Transformadores Eletricos",
+        "amount": {
+          "amount": 8467.00,
+          "currency": "BRL"
+        },
+        "coverages": [
+          {
+            "branch": "2348",
+            "code": "DANOS_ELETRICOS",
+            "internalCode": "0xf4as8aw4rdas584fr56as486ra7r8w78q",
+            "susepProcessNumber": "0xger84g85df4v5848sd",
+            "LMI": {
+              "amount": 8467.00,
+              "currency": "BRL"
+            },
+            "isLMISublimit": true,
+            "termStartDate": "2021-02-15",
+            "termEndDate": "2022-12-01",
+            "isMainCoverage": true,
+            "feature": "MASSIFICADOS_MICROSEGUROS",
+            "type": "REGULAR_COMUM",
+            "gracePeriod": 30,
+            "gracePeriodicity": "DIA",
+            "gracePeriodCountingMethod": "DIAS_UTEIS",
+            "gracePeriodStartDate": "2022-12-01",
+            "gracePeriodEndDate": "2022-12-31"
+          }
+        ]
+      }
+    ],
+    "coverages": [
+      {
+        "branch": "2348",
+        "code": "DANOS_ELETRICOS",
+        "deductible": {
+          "type": "DEDUTIVEL",
+          "amount": {
+            "amount": 8467.00,
+            "currency": "BRL"
+          },
+          "period": 15,    
+          "periodicity": "DIA",
+          "periodCountingMethod": "DIAS_UTEIS",
+          "periodStartDate": "2022-12-16",
+          "periodEndDate": "2022-12-31",
+          "description": "Franquia Carlos de Azevedo"
+        },
+        "POS": {
+          "applicationType": "VALOR",
+          "description": "Aplicação natural",
+          "minValue": {
+            "amount": 8467.00,
+            "currency": "BRL"
+          },
+          "maxValue": {
+            "amount": 11007.10,
+            "currency": "BRL"
+          },
+          "percentage": 30.0
+        }
+      }
+    ],
+    "coinsuranceRetainedPercentage": 3.0,
+    "coinsurers": [
+      {
+        "identification": "0xfsda54fwe55sdf4",
+        "cededPercentage": 3.0
+      }
+    ],
+    "branchInfo": {
+      "basicCoverageIndex": "SIMPLES",
+      "insuredObjects": [
+        {
+          "identification": "0xf5er1g5sd15f1s5d154f",
+          "propertyType": "CONDOMINIO_MISTOS",
+          "structuringType": "MISTO",
+          "postCode": "64561617",
+          "businessActivity": "3584469"
+        }
+      ]
+    }
+  },
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/3936280b-c6f6-47aa-808d-766001db80a4/policy-info",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/3936280b-c6f6-47aa-808d-766001db80a4/policy-info",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/3936280b-c6f6-47aa-808d-766001db80a4/policy-info"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

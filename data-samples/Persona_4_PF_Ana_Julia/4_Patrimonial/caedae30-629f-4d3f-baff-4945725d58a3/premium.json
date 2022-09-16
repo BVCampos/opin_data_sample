@@ -1,0 +1,46 @@
+{
+    "data": {
+      "paymentsQuantity": 4,
+      "amount": {
+        "amount": 4895.00,
+        "currency": "BRL"
+      },
+      "coverages": [
+        {
+          "branch": "5484",
+          "code": "ROUBO_E_FURTO_MEDIANTE_ARROMBAMENTO",
+          "premiumAmount": {
+            "amount": 4895.00,
+            "currency": "BRL"
+          }
+        }
+      ],
+      "payments": [
+        {
+          "movementDate": "2022-12-01",
+          "movementType": "LIQUIDACAO_DE_PREMIO",
+          "movementOrigin": "EMISSAO_DIRETA",
+          "movementPaymentsNumber": 0,
+          "amount": {
+            "amount": 4895.00,
+            "currency": "BRL"
+          },
+          "maturityDate": "2023-02-01",
+          "tellerId": "72242144006",
+          "tellerIdType": "CPF",
+          "tellerName": "Jóse Alberto Fonseca",
+          "financialInstitutionCode": "0xasd54a5s4fa84as8ef5w1f5",
+          "paymentType": "TED"
+        }
+      ]
+    },
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/caedae30-629f-4d3f-baff-4945725d58a3/premium",
+      "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/caedae30-629f-4d3f-baff-4945725d58a3/premium",
+      "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/caedae30-629f-4d3f-baff-4945725d58a3/premium"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1
+    }
+  }

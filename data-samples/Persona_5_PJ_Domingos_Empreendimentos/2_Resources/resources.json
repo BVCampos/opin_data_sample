@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "resourceId": "fe1bdb09-f236-43eb-b17d-fde80d373721",
+      "type": "CUSTOMERS_BUSINESS_IDENTIFICATIONS",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "13c3e95f-d990-4a62-90f5-b8146512ae34",
+      "type": "CUSTOMERS_BUSINESS_QUALIFICATION",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "4396c0cd-09b6-4694-821b-29af9d789014",
+      "type": "CUSTOMERS_BUSINESS_ADITTIONALINFO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"640652be-2a89-4cf3-b31b-2d725188a89e",
+      "type": "DAMAGES_AND_PEOPLE_ACCEPTANCE_AND_BRANCHES_ABROAD",
+      "status": "TEMPORARILY_UNAVAILABLE"
+    },
+    {
+      "resourceId":"12336345-2180-41ce-8ad0-61f542553be2",
+      "type": "DAMAGES_AND_PEOPLE_AUTO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"9d1ee104-76e4-4067-8320-a9ef83417461",
+      "type": "DAMAGES_AND_PEOPLE_AERONAUTICAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"b73d1f19-2645-4496-bce3-74c3c855e97b",
+      "type": "DAMAGES_AND_PEOPLE_FINANCIAL_RISKS",
+      "status": "PENDING_AUTHORISATION"
+    },
+    {
+      "resourceId":"5c6f9743-7077-416d-81a4-99985f46ca2f",
+      "type": "DAMAGES_AND_PEOPLE_NAUTICAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"2198a3ea-22ab-4970-8138-92280135d44b",
+      "type": "DAMAGES_AND_PEOPLE_NUCLEAR",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"196be411-cf49-470b-859d-e25740e406c2",
+      "type": "DAMAGES_AND_PEOPLE_PATRIMONIAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"51d3c922-8183-4832-81c1-52199bf0c3af",
+      "type": "DAMAGES_AND_PEOPLE_OIL",
+      "status": "AVAILABLE"
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "first": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "last": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2022-01-06T19:58:00Z"
+  }
+}

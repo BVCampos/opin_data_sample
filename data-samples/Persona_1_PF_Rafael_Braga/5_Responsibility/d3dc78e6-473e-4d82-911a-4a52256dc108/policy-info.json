@@ -1,0 +1,191 @@
+{
+  "data": {
+    "documentType": "APOLICE_INDIVIDUAL",
+    "policyId": "d3dc78e6-473e-4d82-911a-4a52256dc108",
+    "susepProcessNumber": "74584391231",
+    "issuanceType": "EMISSAO_PROPRIA",
+    "issuanceDate": "2020-07-05",
+    "termStartDate": "2020-08-01",
+    "termEndDate": "2023-07-31",
+    "maxLMG": {
+      "amount": 5000.00,
+      "currency": "BRL"
+    },
+    "proposalId": "eee98a9a85",
+    "insureds": [
+      {
+        "identification": "38481023078",
+        "identificationType": "CPF",
+        "name": "Maria Cristina Guerreira",
+        "postCode": "69314700",
+        "city": "Boa Vista",
+        "state": "RR",
+        "country": "BRA",
+        "address": "Avenida Parque Jardim 88, Jardim Tropical"
+      },
+      {
+        "identification": "77828294026",
+        "identificationType": "CPF",
+        "name": "Taina Costa Menezes",
+        "postCode": "64605410",
+        "email": "tcosta@gmail.com",
+        "city": "Picos",
+        "state": "PI",
+        "country": "BRA",
+        "address": "Rua Projetada 243, 123 Parque Industrial"
+      }
+    ],
+    "beneficiaries": [
+      {
+        "identification": "38481023078",
+        "identificationType": "CPF",
+        "name": "Gabriela Prado Maia",
+        "postCode": "67146063",
+        "city": "Ananindeua",
+        "state": "PA",
+        "country": "BRA",
+        "address": "Quadra Sessenta e Três, 3, Maguari"
+      }
+    ],
+    "principals": [
+      {
+        "identification": "38481023078",
+        "identificationType": "CPF",
+        "name": "Maria Cristina Guerreira",
+        "postCode": "69314700",
+        "city": "Boa Vista",
+        "state": "RR",
+        "country": "BRA",
+        "address": "Avenida Parque Jardim 88, Jardim Tropical"
+      },
+      {
+        "identification": "77828294026",
+        "identificationType": "CPF",
+        "name": "Taina Costa Menezes",
+        "postCode": "64605410",
+        "email": "tcosta@gmail.com",
+        "city": "Picos",
+        "state": "PI",
+        "country": "BRA",
+        "address": "Rua Projetada 243, 123 Parque Industrial"
+      }
+    ],
+    "intermediaries": [
+      {
+        "type": "CORRETOR",
+        "identification": "36808868026",
+        "brokerId": "13473629857",
+        "identificationType": "CPF",
+        "name": "Cristiano Ronaldo Pereira Souza"
+      }
+    ],
+    "insuredObjects": [
+      {
+        "identification": "12395773",
+        "type": "AUTOMOVEL",
+        "description": "Gol 2011 1.0 Prata AC",
+        "amount": {
+          "amount": 1800.00,
+          "currency": "BRL"
+        },
+        "coverages": [
+          {
+            "branch": "154",
+            "code": "DANOS_CAUSADOS_A_TERCEIROS",
+            "susepProcessNumber": "57937248029",
+            "LMI": {
+              "amount": 1400.00,
+              "currency": "BRL"
+            },
+            "isLMISublimit": true,
+            "termStartDate": "2022-01-01",
+            "termEndDate": "2023-01-01",
+            "isMainCoverage": true,
+            "feature": "MASSIFICADOS",
+            "type": "REGULAR_COMUM"
+          }
+        ]
+      }
+    ],
+    "coverages": [
+      {
+        "branch": "154",
+        "code": "DANOS_CAUSADOS_A_TERCEIROS",
+        "deductible": {
+          "type": "NORMAL",
+          "amount": {
+            "amount": 800.00,
+            "currency": "BRL"
+          },
+          "period": 12,
+          "periodicity": "MES",
+          "periodCountingMethod": "DIAS_UTEIS",
+          "periodStartDate": "2022-01-01",
+          "periodEndDate": "2023-01-01",
+          "description": "Franquia de carro"
+        },
+        "POS": {
+          "applicationType": "PERCENTUAL",
+          "description": "Não cobre 6.4%",
+          "minValue": {
+            "amount": 1200.00,
+            "currency": "BRL"
+          },
+          "maxValue": {
+            "amount": 1900.00,
+            "currency": "BRL"
+          },
+          "percentage": 6.4
+        }
+      }
+    ],
+    "coinsurers": [
+      {
+        "identification": "string",
+        "cededPercentage": 10.0
+      }
+    ],
+    "branchInfo": {
+      "coverages": [
+        {
+          "branch": "154",
+          "code": "DANOS_CAUSADOS_A_TERCEIROS",
+          "type": "POR_OCORRENCIA",
+          "lawyerRecommendation": "ESCOLHIDO_PELO_SEGURADO"
+        }
+      ],
+      "insuredObjects": [
+        {
+          "identification": "55555",
+          "hasComplementaryContract": true,
+          "complementaryContractAmount": {
+            "amount": 300.00,
+            "currency": "BRL"
+          },
+          "coveragesMaxAmount": {
+            "amount": 450.00,
+            "currency": "BRL"
+          },
+          "coveragesTermStartDate": "2021-12-01",
+          "coveragesTermEndDate": "2022-11-31",
+          "coveragesTerm": 100,
+          "coveragesUnit": "DIA",
+          "coveragesWorkingDaysIndex": "DIAS_UTEIS",
+          "hasTransportationPollutionDamage": true,
+          "hasThirdPatyDamage": true,
+          "professionalClass": "ADMINISTRADOR_IMOBILIARIO",
+          "hasRetroactivityApplication": true
+        }
+      ]
+    }
+  },
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/d3dc78e6-473e-4d82-911a-4a52256dc108/policy-info",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/d3dc78e6-473e-4d82-911a-4a52256dc108/policy-info",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/d3dc78e6-473e-4d82-911a-4a52256dc108/policy-info"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

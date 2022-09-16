@@ -1,0 +1,183 @@
+{
+  "data": {
+    "documentType": "APOLICE_INDIVIDUAL",
+    "policyId": "10371813-4340-45f1-82a2-828f1cb1fb7c",
+    "susepProcessNumber": "4792832031",
+    "issuanceType": "COSSEGURO_ACEITO",
+    "issuanceDate": "2022-02-29",
+    "termStartDate": "2022-02-29",
+    "termEndDate": "2022-12-31",
+    "leadInsurerCode": "5328",
+    "leadInsurerPolicyId": "a85915fb-f13d-4445-a39f-b3d6e4c74c07",
+    "maxLMG": {
+      "amount": 2222.22,
+      "currency": "BRL"
+    },
+    "proposalId": "ry2983u0e",
+    "insureds": [
+      {
+        "identification": "93746042054",
+        "identificationType": "CPF",
+        "name": "Daniel Silveira",
+        "postCode": "64600391",
+        "email": "dandan@gmail.com",
+        "city": "Picos",
+        "state": "PI",
+        "country": "BRA",
+        "address": "Rua Emília Ernestina Bezerra, 99"
+      }
+    ],
+    "beneficiaries": [
+      {
+        "identification": "93746042054",
+        "identificationType": "CPF",
+        "name": "Daniel Silveira",
+        "postCode": "64600391",
+        "email": "dandan@gmail.com",
+        "city": "Picos",
+        "state": "PI",
+        "country": "BRA",
+        "address": "Rua Emília Ernestina Bezerra, 99"
+      }
+    ],
+    "principals": [
+      {
+        "identification": "93746042054",
+        "identificationType": "CPF",
+        "name": "Daniel Silveira",
+        "postCode": "64600391",
+        "email": "dandan@gmail.com",
+        "city": "Picos",
+        "state": "PI",
+        "country": "BRA",
+        "address": "Rua Emília Ernestina Bezerra, 99"
+      }
+    ],
+    "intermediaries": [
+      {
+        "type": "ESTIPULANTE",
+        "identification": "60121878074",
+        "identificationType": "CPF",
+        "name": "Jucelino Kubitchec",
+        "postCode": "68005610",
+        "city": "Santarém",
+        "state": "PA",
+        "country": "BRA",
+        "address": "Praça Der, 30, Prainha"
+      }
+    ],
+    "insuredObjects": [
+      {
+        "identification": "57489432",
+        "type": "PROCESSO_JUDICIAL",
+        "description": "PROCESSO CONTRA PRESO",
+        "amount": {
+          "amount": 1854.98,
+          "currency": "BRL"
+        },
+        "coverages": [
+          {
+            "branch": "25",
+            "code": "DANOS_CAUSADOS_A_TERCEIROS",
+            "susepProcessNumber": "57483091",
+            "LMI": {
+              "amount": 1300.30,
+              "currency": "BRL"
+            },
+            "isLMISublimit": true,
+            "termStartDate": "2022-02-05",
+            "termEndDate": "2022-08-28",
+            "isMainCoverage": true,
+            "feature": "MASSIFICADOS",
+            "type": "PARAMETRICO",
+            "gracePeriod": 5,
+            "gracePeriodicity": "DIA",
+            "gracePeriodCountingMethod": "DIAS_UTEIS",
+            "gracePeriodStartDate": "2022-02-01",
+            "gracePeriodEndDate": "2022-10-10"
+          }
+        ]
+      }
+    ],
+    "coverages": [
+      {
+        "branch": "25",
+        "code": "DANOS_CAUSADOS_A_TERCEIROS",
+        "deductible": {
+          "type": "MAJORADA",
+          "amount": {
+            "amount": 350.25,
+            "currency": "BRL"
+          },
+          "period": 2,
+          "periodicity": "MES",
+          "periodCountingMethod": "DIAS_UTEIS",
+          "periodStartDate": "2022-02-08",
+          "periodEndDate": "2023-01-22",
+          "description": "Nova Fraquia"
+        },
+        "POS": {
+          "applicationType": "VALOR",
+          "description": "POS EM VALOR",
+          "minValue": {
+            "amount": 3105.22,
+            "currency": "BRL"
+          },
+          "maxValue": {
+            "amount": 4000.00,
+            "currency": "BRL"
+          },
+          "percentage": 10.3
+        }
+      }
+    ],
+    "coinsuranceRetainedPercentage": 9.332,
+    "coinsurers": [
+      {
+        "identification": "5749820212",
+        "cededPercentage": 1.12
+      }
+    ],
+    "branchInfo": {
+      "coverages": [
+        {
+          "branch": "25",
+          "code": "DANOS_CAUSADOS_A_TERCEIROS",
+          "type": "POR_OCORRENCIA"
+        }
+      ],
+      "insuredObjects": [
+        {
+          "identification": "57489432",
+          "hasComplementaryContract": true,
+          "complementaryContractAmount": {
+            "amount": 3500.00,
+            "currency": "BRL"
+          },
+          "coveragesMaxAmount": {
+            "amount": 1030.00,
+            "currency": "BRL"
+          },
+          "coveragesTermStartDate": "2022-04-01",
+          "coveragesTermEndDate": "2022-03-30",
+          "coveragesTerm": 30,
+          "coveragesUnit": "DIA",
+          "coveragesWorkingDaysIndex": "DIAS_UTEIS",
+          "hasTransportationPollutionDamage": true,
+          "hasThirdPatyDamage": true,
+          "professionalClass": "ADMINISTRADOR_IMOBILIARIO",
+          "hasRetroactivityApplication": true
+        }
+      ]
+    }
+  },
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/10371813-4340-45f1-82a2-828f1cb1fb7c/policy-info",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/10371813-4340-45f1-82a2-828f1cb1fb7c/policy-info",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/10371813-4340-45f1-82a2-828f1cb1fb7c/policy-info"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

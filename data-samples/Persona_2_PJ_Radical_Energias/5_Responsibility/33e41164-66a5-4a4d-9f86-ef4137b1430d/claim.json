@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "identification": "7562389472",
+      "documentationDeliveryDate": "2021-12-18",
+      "status": "CANCELADO_POR_ERRO_OPERACIONAL",
+      "statusAlterationDate": "2021-12-29",
+      "occurrenceDate": "2021-12-12",
+      "warningDate": "2021-12-14",
+      "thirdPartyClaimDate": "2021-12-13",
+      "amount": {
+        "amount": 40000.00,
+        "currency": "BRL"
+      },
+      "coverages": [
+        {
+          "insuredObjectId": "34798302",
+          "branch": "3",
+          "code": "PRESTACAO_DE_SERVICOS"
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/claim",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/claim",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1/33e41164-66a5-4a4d-9f86-ef4137b1430d/claim"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

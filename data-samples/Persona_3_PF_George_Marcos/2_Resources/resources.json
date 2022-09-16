@@ -1,0 +1,84 @@
+{
+  "data": [
+    {
+      "resourceId": "70adf323-8511-4c46-9cc8-8372e828c1a1",
+      "type": "CUSTOMERS_PERSONAL_IDENTIFICATIONS",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "45ee7cfd-26f3-4c15-aec1-b2f1a1ee7bbe",
+      "type": "CUSTOMERS_PERSONAL_QUALIFICATION",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId": "0c560e1f-4801-495c-beab-37e20d1eb4db",
+      "type": "CUSTOMERS_PERSONAL_ADITTIONALINFO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"65aa1ea2-581a-4616-9f3b-b3e793b714d7",
+      "type": "DAMAGES_AND_PEOPLE_AUTO",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"cee22f40-3ff9-4cb3-99e1-325884c198e3",
+      "type": "DAMAGES_AND_PEOPLE_NAUTICAL",
+      "status": "TEMPORARILY_UNAVAILABLE"
+    },
+    {
+      "resourceId":"328bdb08-4006-4679-b8be-b43d85b17283",
+      "type": "DAMAGES_AND_PEOPLE_PATRIMONIAL",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"cbd5547c-88b4-4001-ba85-73bf577167f0",
+      "type": "DAMAGES_AND_PEOPLE_OIL",
+      "status": "PENDING_AUTHORISATION"
+    },
+    {
+      "resourceId":"10371813-4340-45f1-82a2-828f1cb1fb7c",
+      "type": "DAMAGES_AND_PEOPLE_RESPONSABILITY",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"aa9c97f8-d9c1-4ed5-8dfe-a5a3efc7c780",
+      "type": "DAMAGES_AND_PEOPLE_RURAL",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "resourceId":"0962e823-920e-49a2-b697-71e07a3bc69e",
+      "type": "DAMAGES_AND_PEOPLE_HOUSING",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"4d0bad52-0ab6-4d23-bbb7-b54b90b382ee",
+      "type": "DAMAGES_AND_PEOPLE_PEOPLE",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"73b0dd19-f77c-4225-b85c-8f8944d7829a",
+      "type": "DAMAGES_AND_PEOPLE_TRANSPORT",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"149c7dd2-b5d0-4c54-ba64-a195a5c24104",
+      "type": "PENSION_RISK",
+      "status": "AVAILABLE"
+    },
+    {
+      "resourceId":"45a5bd2f-c12a-4ebb-b667-7546044125fb",
+      "type": "CAPITALIZATION_TITLES",
+      "status": "AVAILABLE"
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "first": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource",
+    "last": "https://api.seguradoraex.com.br/open-insurance/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2022-01-06T19:58:00Z"
+  }
+}

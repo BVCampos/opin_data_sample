@@ -1,0 +1,51 @@
+{
+    "data": {
+      "consentId": "urn:seguradoraex:C23D114FB",
+      "creationDateTime": "2022-05-21T08:30:00Z",
+      "status": "AWAITING_AUTHORISATION",
+      "statusUpdateDateTime": "2022-05-31T08:30:00Z",
+      "permissions": [
+        "CUSTOMERS_BUSINESS_IDENTIFICATIONS_READ",
+        "CUSTOMERS_BUSINESS_QUALIFICATION_READ",
+        "CUSTOMERS_BUSINESS_ADITTIONALINFO_READ",
+        "DAMAGES_AND_PEOPLE_AUTO_READ",
+        "DAMAGES_AND_PEOPLE_AUTO_POLICYINFO_READ",
+        "DAMAGES_AND_PEOPLE_AUTO_PREMIUM_READ",
+        "DAMAGES_AND_PEOPLE_AUTO_CLAIM_READ",
+        "DAMAGES_AND_PEOPLE_AERONAUTICAL_READ",
+        "DAMAGES_AND_PEOPLE_AERONAUTICAL_POLICYINFO_READ",
+        "DAMAGES_AND_PEOPLE_AERONAUTICAL_PREMIUM_READ",
+        "DAMAGES_AND_PEOPLE_AERONAUTICAL_CLAIM_READ",
+        "DAMAGES_AND_PEOPLE_NAUTICAL_READ",
+        "DAMAGES_AND_PEOPLE_NAUTICAL_POLICYINFO_READ",
+        "DAMAGES_AND_PEOPLE_NAUTICAL_PREMIUM_READ",
+        "DAMAGES_AND_PEOPLE_NAUTICAL_CLAIM_READ",
+        "DAMAGES_AND_PEOPLE_NUCLEAR_READ",
+        "DAMAGES_AND_PEOPLE_NUCLEAR_POLICYINFO_READ",
+        "DAMAGES_AND_PEOPLE_NUCLEAR_PREMIUM_READ",
+        "DAMAGES_AND_PEOPLE_NUCLEAR_CLAIM_READ",
+        "DAMAGES_AND_PEOPLE_PATRIMONIAL_READ",
+        "DAMAGES_AND_PEOPLE_PATRIMONIAL_POLICYINFO_READ",
+        "DAMAGES_AND_PEOPLE_PATRIMONIAL_PREMIUM_READ",
+        "DAMAGES_AND_PEOPLE_PATRIMONIAL_CLAIM_READ",
+        "DAMAGES_AND_PEOPLE_OIL_READ",
+        "DAMAGES_AND_PEOPLE_OIL_POLICYINFO_READ",
+        "DAMAGES_AND_PEOPLE_OIL_PREMIUM_READ",
+        "DAMAGES_AND_PEOPLE_OIL_CLAIM_READ",
+        "RESOURCES_READ"
+      ],
+      "expirationDateTime": "2024-12-31T23:59:59Z",
+      "transactionFromDateTime": "2022-08-20T00:00:00Z",
+      "transactionToDateTime": "2022-08-20T23:59:59Z"
+    },
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/consents/v1/urn:seguradoraex:C23D114FB",
+      "first": "https://api.seguradoraex.com.br/open-insurance/consents/v1/urn:seguradoraex:C23D114FB",
+      "last": "https://api.seguradoraex.com.br/open-insurance/consents/v1/urn:seguradoraex:C23D114FB"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1,
+      "requestDateTime": "2022-07-30T08:30:00Z"
+    }
+  }

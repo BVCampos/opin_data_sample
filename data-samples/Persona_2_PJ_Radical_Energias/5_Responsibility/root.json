@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "brand": "Celulares Obsoletos",
+      "companies": [
+        {
+          "companyName": "Safety Pins SA",
+          "cnpjNumber": "65173304000104",
+          "policies": [
+            "33e41164-66a5-4a4d-9f86-ef4137b1430d"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

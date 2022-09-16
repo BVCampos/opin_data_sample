@@ -1,0 +1,45 @@
+{
+  "data": [
+    {
+      "updateDateTime": "2022-07-30T07:30:00Z",
+      "startDate": "2019-03-30",
+      "relationshipBeginning": "2019-04-01",
+      "productsServices": [
+        {
+          "contract": "20221365214623987",
+          "type": "SEGUROS_DE_PESSOAS",
+          "insuranceLineCode": "1293",
+          "procurators": [
+            {
+              "nature": "REPRESENTANTE_LEGAL",
+              "cpfNumber": "73677831148",
+              "civilName": "Mario da Silva"
+            }
+          ]
+        },
+        {
+          "contract": "20221568752541365",
+          "type": "TITULOS_DE_CAPITALIZACAO",
+          "insuranceLineCode": "1203",
+          "procurators": [
+            {
+              "nature": "REPRESENTANTE_LEGAL",
+              "cpfNumber": "11111111111",
+              "civilName": "Jairo Matheus Manso"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/complimentary-information",
+    "first": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/complimentary-information",
+    "last": "https://api.seguradoraex.com.br/open-insurance/consents/v1/personal/complimentary-information"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1,
+    "requestDateTime": "2022-08-10T12:30:00Z"
+  }
+}

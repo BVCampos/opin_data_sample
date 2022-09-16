@@ -1,0 +1,41 @@
+{
+    "data": {
+      "paymentsQuantity": 5,
+      "amount": {
+        "amount": 8467.00,
+        "currency": "BRL"
+      },
+      "coverages": [
+        {
+          "branch": "2348",
+          "code": "DANOS_ELETRICOS",
+          "premiumAmount": {
+            "amount": 8467.00,
+            "currency": "BRL"
+          }
+        }
+      ],
+      "payments": [
+        {
+          "movementDate": "2022-12-31",
+          "movementType": "ESTORNO_DE_PREMIO",
+          "movementOrigin": "EMISSAO_DIRETA",
+          "movementPaymentsNumber": 0,
+          "amount": {
+            "amount": 8467.00,
+            "currency": "BRL"
+          },
+          "maturityDate": "2023-02-31"
+        }
+      ]
+    },
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/3936280b-c6f6-47aa-808d-766001db80a4/premium",
+      "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/3936280b-c6f6-47aa-808d-766001db80a4/premium",
+      "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/3936280b-c6f6-47aa-808d-766001db80a4/premium"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1
+    }
+  }

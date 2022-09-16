@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "brand": "Vivo",
+      "companies": [
+        {
+          "companyName": "Telefônica Brasil S.A.",
+          "cnpjNumber": "61880687000191",
+          "policies": [
+            "3936280b-c6f6-47aa-808d-766001db80a4"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

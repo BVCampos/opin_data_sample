@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "brand": "Faria Lima Seguradora",
+      "companies": [
+        {
+          "companyName": "Seguradora SP",
+          "cnpjNumber": "27053294000176",
+          "policies": [
+            "d3dc78e6-473e-4d82-911a-4a52256dc108"
+          ]
+        }
+      ]
+    }
+  ],
+  "links": {
+    "self": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1",
+    "first": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1",
+    "last": "https://api.seguradoraex.com.br/open-insurance/insurance-responsibility/v1"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}
