@@ -1,0 +1,46 @@
+{
+    "data": {
+      "paymentsQuantity": 7,
+      "amount": {
+        "amount": 5000.00,
+        "currency": "BRL"
+      },
+      "coverages": [
+        {
+          "branch": "1187",
+          "code": "ROUBO_DE_VALORES_EM_TRANSITO_EM_MAOS_DE_PORTADOR",
+          "premiumAmount": {
+            "amount": 5000.00,
+            "currency": "BRL"
+          }
+        }
+      ],
+      "payments": [
+        {
+          "movementDate": "2023-05-01",
+          "movementType": "LIQUIDACAO_DE_CUSTO_DE_AQUISICAO",
+          "movementOrigin": "EMISSAO_ACEITA_DE_COSSEGURO",
+          "movementPaymentsNumber": 0,
+          "amount": {
+            "amount": 5000.00,
+            "currency": "BRL"
+          },
+          "maturityDate": "2023-07-01",
+          "tellerId": "38755564020",
+          "tellerIdType": "CPF",
+          "tellerName": "Pedro Tavarez Mendonça",
+          "financialInstitutionCode": "0xasd54a5s4fa84as8ef5w1f5",
+          "paymentType": "BOLETO"
+        }
+      ]
+    },
+    "links": {
+      "self": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912/premium",
+      "first": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912/premium",
+      "last": "https://api.seguradoraex.com.br/open-insurance/insurance-patrimonial/v1/ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912/premium"
+    },
+    "meta": {
+      "totalRecords": 1,
+      "totalPages": 1
+    }
+  }
