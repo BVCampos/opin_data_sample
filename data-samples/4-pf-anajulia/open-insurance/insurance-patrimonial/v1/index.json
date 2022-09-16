@@ -1,13 +1,13 @@
 {
   "data": [
     {
-      "brand": "Amazon",
+      "brand": "Banco do Brasil",
       "companies": [
         {
-          "companyName": "Amazon Resíduos Ltda",
-          "cnpjNumber": "61880687000191",
+          "companyName": "Banco do Brasil S.A",
+          "cnpjNumber": "84358114000106",
           "policies": [
-            "ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912"
+            "caedae30-629f-4d3f-baff-4945725d58a3"
           ]
         }
       ]

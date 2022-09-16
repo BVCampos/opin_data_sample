@@ -1,93 +1,58 @@
 {
   "data": [
     {
-      "resourceId": "75f3677b-61d9-453e-b31d-8dd28112e41b",
-      "type": "CUSTOMERS_PERSONAL_IDENTIFICATIONS",
+      "resourceId": "fe1bdb09-f236-43eb-b17d-fde80d373721",
+      "type": "CUSTOMERS_BUSINESS_IDENTIFICATIONS",
       "status": "AVAILABLE"
     },
     {
-      "resourceId": "728a919a-2b06-49ab-a2b8-655afe48f76a",
-      "type": "CUSTOMERS_PERSONAL_QUALIFICATION",
+      "resourceId": "13c3e95f-d990-4a62-90f5-b8146512ae34",
+      "type": "CUSTOMERS_BUSINESS_QUALIFICATION",
       "status": "AVAILABLE"
     },
     {
-      "resourceId": "8c210436-1cd2-42c1-9882-cf29d52de190",
-      "type": "CUSTOMERS_PERSONAL_ADITTIONALINFO",
+      "resourceId": "4396c0cd-09b6-4694-821b-29af9d789014",
+      "type": "CUSTOMERS_BUSINESS_ADITTIONALINFO",
       "status": "AVAILABLE"
     },
     {
-      "resourceId":"3c2ef880-242b-4a0e-8437-a0865945a7f4",
+      "resourceId":"640652be-2a89-4cf3-b31b-2d725188a89e",
       "type": "DAMAGES_AND_PEOPLE_ACCEPTANCE_AND_BRANCHES_ABROAD",
-      "status": "AVAILABLE"
+      "status": "TEMPORARILY_UNAVAILABLE"
     },
     {
-      "resourceId":"95333279-141c-4b1b-8744-39ecc16f3175",
+      "resourceId":"12336345-2180-41ce-8ad0-61f542553be2",
       "type": "DAMAGES_AND_PEOPLE_AUTO",
       "status": "AVAILABLE"
     },
     {
-      "resourceId":"a5573170-f593-454f-abc7-ad5292ddfba7",
+      "resourceId":"9d1ee104-76e4-4067-8320-a9ef83417461",
       "type": "DAMAGES_AND_PEOPLE_AERONAUTICAL",
       "status": "AVAILABLE"
     },
     {
-      "resourceId":"50c1c5b8-ce6c-4d53-8a6b-41ee54ba0ac8",
+      "resourceId":"b73d1f19-2645-4496-bce3-74c3c855e97b",
       "type": "DAMAGES_AND_PEOPLE_FINANCIAL_RISKS",
-      "status": "AVAILABLE"
+      "status": "PENDING_AUTHORISATION"
     },
     {
-      "resourceId":"a0c4dc53-b2ee-4f2e-ab7d-a3c97c4b98f1",
+      "resourceId":"5c6f9743-7077-416d-81a4-99985f46ca2f",
       "type": "DAMAGES_AND_PEOPLE_NAUTICAL",
       "status": "AVAILABLE"
     },
     {
-      "resourceId":"cfd0b259-e531-40ba-a886-d1de9d636e3b",
+      "resourceId":"2198a3ea-22ab-4970-8138-92280135d44b",
       "type": "DAMAGES_AND_PEOPLE_NUCLEAR",
       "status": "AVAILABLE"
     },
     {
-      "resourceId":"ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912",
+      "resourceId":"196be411-cf49-470b-859d-e25740e406c2",
       "type": "DAMAGES_AND_PEOPLE_PATRIMONIAL",
       "status": "AVAILABLE"
     },
     {
-      "resourceId":"b95422ea-96f0-41da-95dd-c58d0b6c2c01",
+      "resourceId":"51d3c922-8183-4832-81c1-52199bf0c3af",
       "type": "DAMAGES_AND_PEOPLE_OIL",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"d3dc78e6-473e-4d82-911a-4a52256dc108",
-      "type": "DAMAGES_AND_PEOPLE_RESPONSABILITY",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"a725056d-f119-4bb6-8670-8646cd6452c3",
-      "type": "DAMAGES_AND_PEOPLE_RURAL",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"b7c98ad9-5605-40bc-8526-61bf24c230b1",
-      "type": "DAMAGES_AND_PEOPLE_HOUSING",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"cea3ddb6-9bf6-4b18-8d86-38991661b842",
-      "type": "DAMAGES_AND_PEOPLE_PEOPLE",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"cf8568f9-35c2-42ca-bfc4-19e2bbac551a",
-      "type": "DAMAGES_AND_PEOPLE_TRANSPORT",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"89ec4f84-eb53-44b3-b37d-c63f6e9b1677",
-      "type": "PENSION_RISK",
-      "status": "AVAILABLE"
-    },
-    {
-      "resourceId":"31ce109a-59e8-446b-8708-404862763daa",
-      "type": "CAPITALIZATION_TITLES",
       "status": "AVAILABLE"
     }
   ],

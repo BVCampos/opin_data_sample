@@ -1,13 +1,13 @@
 {
   "data": [
     {
-      "brand": "Amazon",
+      "brand": "Shein",
       "companies": [
         {
-          "companyName": "Amazon Resíduos Ltda",
+          "companyName": "Ebanx LTDA",
           "cnpjNumber": "61880687000191",
           "policies": [
-            "ee5a3cf9-950a-4e80-8c3f-b6c4fbfca912"
+            "196be411-cf49-470b-859d-e25740e406c2"
           ]
         }
       ]
